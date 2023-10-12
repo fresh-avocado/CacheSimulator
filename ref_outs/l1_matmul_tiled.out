@@ -1,0 +1,18 @@
+Cache Settings
+--------------
+(C,B,S): (12,6,0)
+Assume Physical Addresses
+
+Cache Statistics
+----------------
+Reads: 482548
+Writes: 17452
+
+L1 accesses: 500000
+L1 hits: 254569
+L1 misses: 245431
+L1 hit ratio: 0.509
+L1 miss ratio: 0.491
+L1 writebacks due user level conflicts: 5065
+L1 average access time (AAT): 51.086
+

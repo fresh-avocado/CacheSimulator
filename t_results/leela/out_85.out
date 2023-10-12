@@ -1,0 +1,43 @@
+Initital Cache Settings
+--------------
+(C,B,S): (14,6,x)
+Assume Virtual Addresses
+	log2(Page Size): 14
+	log2(TLB entries): 6
+	log2(Physical Pages in Memory): 18
+
+
+Legalized Cache Settings
+--------------
+(C,B,S): (14,6,1)
+Assume Virtual Addresses
+	log2(Page Size): 14
+	log2(TLB entries): 6
+	log2(Physical Pages in Memory): 18
+
+Cache Statistics
+----------------
+Reads: 352008
+Writes: 147992
+
+HWIVPT accesses: 10
+HWIVPT hits: 0
+HWIVPT misses (Page Faults): 10
+HWIVPT hit ratio: 0.000
+HWIVPT miss ratio: 1.000
+L1 writebacks due to OS cache flush: 7
+
+TLB accesses: 500000
+TLB hits: 499990
+TLB misses (Translation Faults): 10
+TLB hit ratio: 1.000
+TLB miss ratio: 0.000
+
+L1 accesses: 500000
+L1 hits: 497600
+L1 misses: 2400
+L1 hit ratio: 0.995
+L1 miss ratio: 0.005
+L1 writebacks due user level conflicts: 365
+L1 average access time (AAT): 2.682
+
